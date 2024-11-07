@@ -39,3 +39,25 @@ Combines the highest and lowest price for each NFT into one table with a status 
 Lists the top-selling NFT each month with its highest USD sale price. Results are ordered chronologically.
 
 11. Monthly Sales Volume
+Calculates total sales volume (USD) per month, rounded to the nearest hundred.
+
+13. Transaction Count for Wallet 0x1919db36ca2fa2e15f9000fd9cdc2edcf863e685
+Counts the transactions for this specific wallet to analyze buying activity.
+
+15. Estimated Daily Average Value
+Excludes outlier transactions to estimate a reliable daily average value for Cryptopunks NFTs.
+
+Prerequisites
+MySQL or any SQL-compatible database engine
+Access to the Cryptopunks NFT dataset in SQL-compatible format
+Setup
+Clone this repository:
+
+git clone https://github.com/your-username/nft-sales-analysis.git
+cd nft-sales-analysis
+Import the dataset into your SQL environment.
+
+Run each query in the order provided or as needed based on analysis goals.
+
+Usage
+Each query is designed to be run independently, allowing for flexibility in the analysis process. Adjustments to field names may be necessary depending on your dataset structure.
