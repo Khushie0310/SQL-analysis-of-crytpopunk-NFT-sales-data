@@ -50,11 +50,7 @@ Excludes outlier transactions to estimate a reliable daily average value for Cry
 Prerequisites
 MySQL or any SQL-compatible database engine
 Access to the Cryptopunks NFT dataset in SQL-compatible format
-Setup
-Clone this repository:
 
-git clone https://github.com/your-username/nft-sales-analysis.git
-cd nft-sales-analysis
 Import the dataset into your SQL environment.
 
 Run each query in the order provided or as needed based on analysis goals.
